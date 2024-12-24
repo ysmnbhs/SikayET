@@ -1,0 +1,142 @@
+* {
+      /* RESET */
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  ::selection {
+    color: white;
+    background: #7D75FD;
+  }
+  
+  nav {
+      background-color: #fff;
+      margin: 0 auto;
+  }
+
+  .nav-genel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  nav .nav-links{
+    margin-right: 10%;
+  }
+  nav .nav-links ul{
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav .nav-item{
+    margin: 0 20px;
+  }
+  
+  nav .nav-links li a {
+      color: #000;
+      text-decoration: none;
+      transition: all 0.3s ease;
+  }
+  
+  nav .nav-links li a:hover {
+      background-color: #7D75FD;
+      color: #fff;
+  }
+  nav .hesap-bilgi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  nav .hesap-bilgi h6{
+    margin: 0;
+    padding: 0%;
+  }
+
+  nav .hesap-bilgi p{
+    margin: 0;
+    padding: 0;
+  }
+
+  nav .profil{
+    
+  }
+
+  nav .profil img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+  }
+
+.responsiveBar{
+    cursor: pointer;
+    display: none;
+}
+
+  .checkbtn-nav{
+    display: none;
+  }
+
+ 
+
+
+
+
+  .submit-btn{
+      width: 100%;
+  }
+
+  .btn-primary{
+    background-color: #5f54fe;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #574bff;
+}
+
+nav .login{
+display: flex;
+flex-direction: row;
+}
+
+
+.user-type-btn a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.firma-type-btn a{
+  color: black;
+  text-decoration: none;
+}
+
+.modal-footer a{
+  text-decoration: none;
+  color: white;
+}
+.hesap-bilgi a{
+  text-decoration: none;
+  color: black;
+}
+
+#firma-cevap{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.link{
+
+    text-decoration: none;
+    color: #7F77FF;
+
+}
+
+.gizlenmis-oge{
+  display: none;
+}

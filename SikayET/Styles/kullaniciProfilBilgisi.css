@@ -1,0 +1,153 @@
+/******************* GLOBAL ************************************************/
+
+* {
+    /* RESET */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #fff;
+}
+
+nav .nav-links li a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav .nav-links li a:hover {
+    background-color: #7D75FD;
+    color: #fff;
+}
+
+
+
+
+body {
+    max-width: 99%;
+    max-height: 100vh;
+    overflow: auto;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    display: flex;
+}
+
+.profile-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3%;
+    padding: 1% 9%;
+    background-color: #7D75FD;
+    max-height: 400px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.profil-bilgi>h4 {
+    margin-right: 100px;
+}
+
+.profile-card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kullanici-tipi {
+    opacity: .6;
+    width: 180px;
+    text-align: center;
+}
+
+.sikayetler {
+    /* display: flex; */
+    margin: auto;
+    width: 70%;
+    /* flex-wrap:wrap; */
+
+}
+
+.sikayet-card {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 25px;
+    /* text-align: center; */
+    /* border-radius: 15px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-bottom: 1px solid black;
+    background-color: rgb(246, 246, 246);
+}
+
+
+.searchbar {
+    min-width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;
+}
+
+.search-input {
+    width: 200px;
+}
+
+.ust-kisim {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sikayetci-bilgi {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sikayetci-bilgi .isim-ve-tarih {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sikayetci-bilgi .isim-ve-tarih .sikayetci-ismi {
+    margin-bottom: 0;
+}
+
+
+
+.nav-item {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.yorum-link {
+    margin-top: 15px;
+
+}
+
+.yorum-link a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.ok-ikon {
+    width: 20px;
+    height: 15px;
+}
+
+.cevapla-button {
+    border: none;
+}

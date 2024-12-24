@@ -1,0 +1,118 @@
+/******************* GLOBAL ************************************************/
+
+* {
+    /* RESET */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: #fff;
+}
+
+nav .nav-links li a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav .nav-links li a:hover {
+    background-color: #7D75FD;
+    color: #fff;
+}
+
+.slide-show {
+    margin-top: 200px;
+}
+
+
+
+
+
+
+.btn:active {
+    border-color: #fff;
+    color: #7D75FD
+}
+
+.btn-primary {
+    background-color: #5f54fe;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #7D75FD;
+}
+
+
+
+.form-check-input:checked::before input:checked {
+    color: #5f54fe;
+    background-color: #5f54fe;
+}
+
+
+
+
+
+/* *****GLOBAL BİTİŞ ********************************************* */
+
+
+.header-content {
+    color: #fff;
+    width: 60%;
+    text-align: center;
+    margin: 150px auto 2rem auto;
+
+}
+
+
+.form-outline {
+    width: 30%;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;
+}
+
+.sikayet-yaz-btn {
+    width: 25%;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hesap-bilgi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.pp {
+    margin-bottom: 14px;
+}
+
+.sikayetgir-header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sikayetgir-header .image{
+    background-size: cover;
+    max-width: 50%;
+}

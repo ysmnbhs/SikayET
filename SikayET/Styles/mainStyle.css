@@ -1,0 +1,223 @@
+/******************* GLOBAL ************************************************/
+
+* {
+    /* RESET */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: #fff;
+}
+
+nav .nav-links li a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav .nav-links li a:hover {
+    background-color: #7D75FD;
+    color: #fff;
+}
+
+.slide-show {
+    margin-top: 200px;
+}
+
+
+
+
+body {
+    /* max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../pictures/header-bg.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+}
+
+header{
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../pictures/header-bg.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.btn:active {
+    border-color: #fff;
+    color: #7D75FD
+}
+
+.btn-primary {
+    background-color: #5f54fe;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #7D75FD;
+}
+
+
+
+.form-check-input:checked::before input:checked {
+    color: #5f54fe;
+    background-color: #5f54fe;
+}
+
+.item-center{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+
+/* *****GLOBAL BİTİŞ ********************************************* */
+
+
+.header-content {
+    color: #fff;
+    width: 60%;
+    text-align: center;
+    margin: 150px auto 2rem auto;
+
+}
+
+
+.form-outline {
+    width: 30%;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;
+}
+
+#sub-text{
+    color: #fff;
+}
+
+header a{
+    color: #fff;
+    transition: all 0.2s;
+}
+
+header a:hover{
+    color: #b9b4ff;
+}
+
+
+
+
+
+/* SİKAYETLER */
+.sikayetler{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    /* flex-wrap:wrap; */
+    
+}
+.sikayet-card {
+    width: 350px;
+    max-height: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 20px;
+    margin:10px 30px 10px 30px;
+    /* text-align: center; */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(246, 246, 246);
+}
+
+
+.searchbar {
+    min-width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;
+}
+
+.search-input{
+    width: 200px;
+}
+
+.ust-kisim{
+    display: flex;
+    justify-content:space-between;
+}
+
+.sikayetci-bilgi{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.sikayetci-bilgi .isim-ve-tarih{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sikayetci-bilgi .isim-ve-tarih .sikayetci-ismi{
+    margin-bottom: 0;
+}
+
+.yorum-link {
+    margin-top: 15px;
+   
+}
+.yorum-link a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.ok-ikon {
+    width: 20px;
+    height: 15px;
+}
+
+.sikayet-icerik .baslik{
+    display:  
+    -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+.sikayet-icerik .icerik {
+
+    display:  
+    -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+
+    max-height: 150px;
+    overflow: hidden;
+   
+}

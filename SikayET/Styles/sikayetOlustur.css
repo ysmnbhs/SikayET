@@ -1,0 +1,73 @@
+
+body{
+      
+      background-image: url(../pictures/header-bg.png);
+      background-size: cover;
+      height: 100vh;
+      overflow: hidden;
+}
+h4{
+      color: #fff;
+}
+
+label{
+      margin-bottom: 2px;
+}
+
+.bg{
+      background-image: url(../pictures/header-bg.png);
+      background-size: cover;
+      border-radius: 15px;
+}
+
+.formgroup{
+      
+      width: 40%;
+      margin: auto;
+      margin-top: 50px;
+      border-radius: 15px;
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(232, 167, 235) 0%, rgb(214, 167, 240) 100%, rgba(0,212,255,1) 100%);
+      
+}
+
+.form{
+      
+      padding: 25px;
+}
+#sikayetForm{
+      margin-top: 20px;
+}
+.logo{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+}
+
+.btn{
+      padding-top: 10px;
+      padding-bottom: 10px;
+}
+
+#olusturuldu{
+      padding: 10px;
+      text-align: center;
+      margin-top: 5px;
+      border-radius: 5px;
+      background-color: rgb(220, 103, 208);
+}
+
+.olusturuldu{
+      padding: 5px;
+      margin-top: 10px;
+      text-align: center;
+      background-color: rgb(154, 246, 220);
+      border-radius: 10px;
+}
+
+.olusturuldu-gizle{
+      visibility: hidden;
+     
+}
+
+
